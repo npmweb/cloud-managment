@@ -1,6 +1,7 @@
 <?php namespace NpmWeb\RackspaceCloud\Commands;
 
-// ./app.sh sup -e -c 100 -o | tr '[:upper:]' '[:lower:]' | sort | uniq | wc -l
+// run from the src folder
+// ./app.sh update-scale-group-image --scale-group=scale-group-id --server=server-id
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface as InputInterface;
