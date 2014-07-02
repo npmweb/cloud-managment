@@ -1,0 +1,17 @@
+{
+	"name": "npmweb/cloud-management",
+	"minimum-stability": "dev",
+	"description": "PHP console app to manage cloud resources",
+	"license": "MIT",
+	"type": "project",
+    "require": {
+        "rackspace/php-opencloud": "dev-master",
+		"symfony/console": "dev-master",
+		"vlucas/phpdotenv": "dev-master"
+    },
+    "autoload": {
+    	"psr-4": {
+			"NpmWeb\\": "src/NpmWeb/"
+		}
+    }
+}
